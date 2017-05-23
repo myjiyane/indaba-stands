@@ -45,14 +45,15 @@ nconf
 
     // This is the id of your project in the Google Cloud Developers Console.
     GCLOUD_PROJECT: 'concise-memory-167315',
-
+	
     // MongoDB connection string
     // https://docs.mongodb.org/manual/reference/connection-string/
     MONGO_URL: 'mongodb://myjiyane:Slindile1$@ds133961.mlab.com:33961/bigstall_library',
-    MONGO_COLLECTION: 'contacts',
+    MONGO_COLLECTION: 'industries',
 
     MYSQL_USER: '',
     MYSQL_PASSWORD: '',
+    
 
     PORT: 8080
   });

@@ -39,7 +39,7 @@ mongoose.connect(config.get('MONGO_URL'));
  * Get port from environment and store in Express.
  */
 var db_server  = process.env.DB_ENV || 'primary';
-var port = process.env.NODE_ENV === 'production' ? 80 : config.get('PORT');
+var port = process.env.NODE_ENV === 'production' ? 8080 : config.get('PORT');
 var ip = process.env.ip;
 
 app.set('ip', ip);

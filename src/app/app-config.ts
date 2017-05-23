@@ -1,4 +1,4 @@
 export class AppConfig {
-    public readonly apiUrl = 'http://concise-memory-167315.appspot.com';
+    public readonly apiUrl = 'http://localhost:8080';
 };
 
