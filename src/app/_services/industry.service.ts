@@ -4,23 +4,11 @@ import { AppConfig } from '../app-config';
 import 'rxjs/add/operator/toPromise';
 import {Observable} from 'rxjs/Rx';
 import { Industries } from '../_models/industries';
-/*import 'async';
-import 'request';*/
 
 @Injectable()
 export class IndustryService {
   private indUrl = '/industries';
                        
-/*function getUrlEndPoints( private int idToFetch){
-    
-   endPoint = endPoints[idToFetch];
-};
-
-for( var i = 0; i < endPoints.length; i++ ) {
-    getUrlEndPoints(i);
-};*/
- 
-
   constructor(private http: Http, private config: AppConfig) { }
   
   // get("/api/industries")
@@ -45,21 +33,3 @@ for( var i = 0; i < endPoints.length; i++ ) {
       console.error(errMsg); // log to console instead
     }
 }
-
-
-//Make muliple http calls in this file
-
-/*async.parallel([
-    function(callback)
-        // Make http requests
-        // Invoke callback(err, result) after http request success or failure
-    },
-    function(callback){
-        // Make http requests
-        // Invoke callback(err, result) after http request success or failure
-    }
-],
-// optional callback
-function(err, results){
-    // the results array will be array of result from the callback
-});*/

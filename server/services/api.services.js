@@ -19,7 +19,7 @@ module.exports = service;
 function getAllIndustries() {
     var deferred = Q.defer();
  
-    industries.find(function (err, industries) {
+    industries.find({cat_id: /tradeExp/}, function (err, industries) {
         if (err) deferred.reject(err.name + ': ' + err.message);
  
         if (industries) {
