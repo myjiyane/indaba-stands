@@ -1,0 +1,13 @@
+<div class="col-lg-3 col-md-3 col-sm-3">
+   <div class="widget blue-widget">
+      <div class="widget-header">
+         <small>252 Ads</small>
+         <h1><i class="fa fa-glass shortcut-icon icon-blue"></i> Trade Expos</h1>
+      </div>
+      <div class="widget-body">
+         <ul class="trends">
+             <li *ngFor="let industry of industries"><a href="telecoms.html">{{industry._id}}<span class="item-numbers">{{industry.totalAds}}</span></a></li>
+         </ul>
+      </div>
+   </div>
+</div>

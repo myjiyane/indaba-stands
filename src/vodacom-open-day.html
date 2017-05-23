@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Book-a-Stall | Acquire your stall space easy and quick</title>
+      <!-- Favicon Icon -->
+      <link rel="apple-touch-icon" sizes="146x100" href="images/146_100.png">
+      <link rel="icon" type="image/png" href="images/146_100.png">
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Google Font -->
+      <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:regular,700,600&amp;latin" type="text/css" />
+      <!-- Custom CSS -->
+      <link href="css/style.css" rel="stylesheet">
+      <!-- Owl Carousel -->
+      <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+      <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
+      <!-- Font Awesome -->
+      <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar top-navbar container-fluid" role="navigation">
+         <div class="container-fluid">
+            <div class="navbar-header col-sm-2">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html"><img alt="Brand" src="images/146_100.png" ></a>
+            </div>
+            <div class="collapse nav navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav nav-tabs nav-justified">
+                  <li>
+                     <a href="index.html"><i class="fa fa-home"></i> Home</a>
+                  </li>
+				  <li><a href="trade-expos.html">Trade Expos</a></li>
+				  <li><a href="conferences.html">Conferences</a></li>
+				  <li>
+                   <a href="hire.html" aria-expanded="false"> Hire-A-Stall</a>
+                  </li>
+                  <li class="dropdown">
+                     <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"> Categories Pages <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="categories.html"><i class="fa fa-fw fa-angle-right"></i> Categories</a>
+                        </li>
+                        <li>
+                           <a href="categories2.html"><i class="fa fa-fw fa-angle-right"></i> Categories 2</a>
+                        </li>
+                        <li>
+                           <a href="category-list.html"><i class="fa fa-fw fa-angle-right"></i> Category List</a>
+                        </li>
+                        <li>
+                           <a href="category-grid.html"><i class="fa fa-fw fa-angle-right"></i> Category Grid</a>
+                        </li>
+                        <li>
+                           <a href="single.html"><i class="fa fa-fw fa-angle-right"></i> Single Item</a>
+                        </li>
+                     </ul>
+                  </li>
+                  <li class="dropdown">
+                     <a data-toggle="dropdown" class="dropdown-toggle" href="#" aria-expanded="false"> Other Pages <b class="caret"></b></a>
+                     <ul class="dropdown-menu">
+                        <li>
+                           <a href="create_post.html"><i class="fa fa-fw fa-angle-right"></i> Post Your Ad</a>
+                        </li>
+                        <li>
+                           <a href="settings.html"><i class="fa fa-fw fa-angle-right"></i> Settings</a>
+                        </li>
+                        <li>
+                           <a href="close-account.html"><i class="fa fa-fw fa-angle-right"></i> Close account</a>
+                        </li>
+                        <li>
+                           <a href="my-ads.html"><i class="fa fa-fw fa-angle-right"></i> My Ads</a>
+                        </li>
+                        <li>
+                           <a href="favourite.html"><i class="fa fa-fw fa-angle-right"></i> Favourite Ads</a>
+                        </li>
+                        <li>
+                           <a href="privacy.html"><i class="fa fa-fw fa-angle-right"></i> Privacy Policy</a>
+                        </li>
+                        <li>
+                           <a href="404.html"><i class="fa fa-fw fa-angle-right"></i> 404</a>
+                        </li>
+                     </ul>
+                  </li>
+               </ul>
+               <div class="user-login pull-right">
+                  <a href="signup.html">REGISTER</a>
+                  <span>or</span>  
+                  <a class="btn btn-md btn-primary" href="login.html">Sign In</a>
+               </div>
+            </div>
+         </div>
+      </nav>
+      <!-- End Navbar -->
+	  
+      <!-- Categories Page Search-->
+      <section class="search-box">
+         <div class="container">
+            <div class="row">
+               <div class="main-search-box text-center">
+                  <form action="search.php" method="GET">
+                     <div class="col-md-4 col-sm-4 search-input">
+                        <input placeholder="Event, Expo, Venue, etc ?" class="form-control input-lg search-form" type="text">
+                     </div>
+                     <div class="col-md-3 col-sm-3 search-input">
+                        <select class="form-control input-lg search-form">
+                           <option selected="">All Category</option>
+                           <option>Trade Expos</option>
+                           <option>Conferences</option>
+                           <option>Venues</option>
+                        </select>
+                     </div>
+                     <div class="col-md-3 col-sm-3 search-input">
+                        <select class="form-control input-lg search-form">
+                           <option selected="">All Venues</option>
+                           <option>Durban</option>
+                           <option>Johanessburg</option>
+                           <option>Cape Town</option>
+						   <option>Port Elizabeth</option>
+                        </select>
+                     </div>
+                     <div class="col-md-2 col-sm-2 search-input">
+                        <button class="btn btn-primary btn-lg simple-btn btn-block">
+                        <i class="fa fa-search"></i> Search
+                        </button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-xs-12 text-center">
+                 <div class="col-xs-12 text-center">
+                  <div class="breadcumb_section search_breadcumb">
+                     <div class="page_pagination">
+                        <ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                           <li><a href="categories.html">Trade Expos</a></li>
+                           <li><i class="fa fa-angle-right" aria-hidden="true"></i></li>
+                           <li><i class="fa fa-phone"></i> Telecommunications </li>
+                        </ul>
+                     </div>
+                  </div>
+                </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Categories Page Search-->
+      <!-- Category List -->
+      <section class="category-grid">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="listing-filters">
+                     <div class="widget listing-filter-block filter-categories">
+                        <div class="widget-header">
+                           <h1>Categories</h1>
+                        </div>
+                        <div class="widget-body">
+                           <ul class="trends">
+                              <li>
+                                 <a href="trade-expos.html">
+                                    <i class="fa fa fa-crosshairs shortcut-icon icon-blue"></i> 
+                                    <p>Trade Expos <small>5,56 Ads</small></p>
+                                 </a>
+							   </li>
+							   <li>
+                                 <a href="conferences.html">
+                                    <i class="fa fa-industry shortcut-icon icon-green"></i> 
+                                    <p>Conferences <small>9,156 Ads</small></p>
+                                 </a>
+                              </li>
+							  <li>
+                                 <a href="venues.html">
+                                    <i class="fa fa-building-o shortcut-icon icon-brown"></i> 
+                                    <p>Venues <small>6,16 Ads</small></p>
+                                 </a>
+                              </li> 
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="widget listing-filter-block">
+                        <div class="widget-header">
+                           <h1>Related events</h1>
+                        </div>
+                        <div class="widget-body">
+                           <div class="similar-ads">
+                              <a href="single.html">
+                                 <div class="similar-ad-left">
+                                    <img class="img-responsive img-center" src="images/categories/restaurant/1.png" alt="">
+                                 </div>
+                                 <div class="similar-ad-right">
+                                    <h4>Lorem Ipsum is simply dummy...</h4>
+                                    <p>$ 450</p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </a>
+                           </div>
+                           <div class="similar-ads">
+                              <a href="single.html">
+                                 <div class="similar-ad-left">
+                                    <img class="img-responsive img-center" src="images/categories/pets/1.png" alt="">
+                                 </div>
+                                 <div class="similar-ad-right">
+                                    <h4>Lorem Ipsum is simply dummy...</h4>
+                                    <p>$ 450</p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </a>
+                           </div>
+                           <div class="similar-ads">
+                              <a href="single.html">
+                                 <div class="similar-ad-left">
+                                    <img class="img-responsive img-center" src="images/categories/real_estate/2.png" alt="">
+                                 </div>
+                                 <div class="similar-ad-right">
+                                    <h4>Lorem Ipsum is simply dummy...</h4>
+                                    <p>$ 450</p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </a>
+                           </div>
+                           <div class="similar-ads">
+                              <a href="single.html">
+                                 <div class="similar-ad-left">
+                                    <img class="img-responsive img-center" src="images/categories/cars/1.png" alt="">
+                                 </div>
+                                 <div class="similar-ad-right">
+                                    <h4>Lorem Ipsum is simply dummy...</h4>
+                                    <p>$ 450</p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </a>
+                           </div>
+                           <div class="similar-ads">
+                              <a href="single.html">
+                                 <div class="similar-ad-left">
+                                    <img class="img-responsive img-center" src="images/categories/job/1.png" alt="">
+                                 </div>
+                                 <div class="similar-ad-right">
+                                    <h4>Lorem Ipsum is simply dummy...</h4>
+                                    <p>$ 450</p>
+                                 </div>
+                                 <div class="clearfix"></div>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="row">
+                     <div class="col-lg-12">
+                        <div class="item single-ads top-space">
+                           <div class="item-ads-grid">
+                              <div class="item-title">
+                                    <h2>Vodacom Open day </h2>
+                                 <div class="item-meta">
+                                    <ul>
+                                       <li class="item-date"><i class="fa fa-clock-o"></i>  5-7 Apr 2017</li>
+                                       <li class="item-cat"><i class="fa fa-glass shortcut-icon icon-blue"></i> <a href="trade-expos.html">Trade Expos</a> , Telecommunications</li>
+                                       <li class="item-location"><a href="venues.html"><i class="fa fa-map-marker"></i> Midrand, Vodaworld </a></li>
+                                       <li class="item-type"><i class="fa fa-bookmark"></i> New</li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <div class="item-img-grid">
+                                 <div class="favourite-icon">
+                                    <a class="fav-btn" title="" data-placement="bottom" data-toggle="tooltip" href="#" data-original-title="Save Ad">115 <i class="fa fa-heart"></i></a>
+                                 </div>
+                                 <div id="sync1" class="owl-carousel">
+                                    <div class="item"><img alt="" src="images/single-ads/big/1.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/2.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/3.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/4.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/5.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/6.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/7.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/big/8.jpg" class="img-responsive img-center"></div>
+                                 </div>
+                                 <div id="sync2" class="owl-carousel">
+                                    <div class="item"><img alt="" src="images/single-ads/small/1.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/2.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/3.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/4.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/5.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/6.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/7.jpg" class="img-responsive img-center"></div>
+                                    <div class="item"><img alt="" src="images/single-ads/small/8.jpg" class="img-responsive img-center"></div>
+                                 </div>
+                              </div>
+                              <div class="single-item-meta">
+                                 <h4><strong>Specification</strong></h4>
+                                 <table class="table table-condensed table-hover">
+                                    <tbody>
+                                       <tr>
+                                          <td>Stall rental price</td>
+                                          <td>22x25</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Availability status</td>
+                                          <td>Yes</td>
+                                       </tr>
+                                       <tr>
+                                          <td>Payment methods</td>
+                                          <td> Debit Card, Credit Card, Payu or PayPal</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                                 <h4><strong>Description</strong></h4>
+                                 <p>
+                                   This is an event dedicated to career opportunities and possibilities and emphasizes on the presence of job opportunities, study options and opportunities, training opportunities, higher studies opportunities and all services related to building and advancing career. It is an excellent platform where one is exposed to the emerging career and job prospects and can get informed about the latest. The event is also well known for providing training and advance study opportunities by which one can start a venture of his own. 
+                                 </p>
+                              </div>
+							  <div class="widget-footer">
+                               <div class="row">
+                                <div class="col-sm-6 ">    
+                                  <a href="stallbooking.html"><button class="btn btn-warning btn-block"> <strong>Stall booking request</strong></button></a> 
+                                </div>
+						        <div class="col-sm-6 ">    
+							      <button class="btn btn-info btn-block"><i class="fa fa-whatsapp"></i> <strong>Whatsapp  contact </strong></button> 
+                                </div>	
+                             </div>
+                            </div>
+                              <div class="item-footer">
+                                 <div class="row">
+                                    <div class="col-xs-12 col-md-5">
+                                       <span class="item-views"> <i class="fa fa-eye"></i> Ad Views : <b>6544</b></span>
+                                    </div>
+                                    <div class="col-xs-12 col-md-7 text-right-md">
+                                       <div class="share-widget">
+                                          <span>Share This Ad :</span>
+                                          <div class="social-links social-bg pull-right">
+                                             <ul>
+                                                <li><a class="fa fa-twitter" target="_blank" href="#"></a></li>
+                                                <li><a class="fa fa-facebook" target="_blank" href="#"></a></li>
+                                                <li><a class="fa fa-google-plus" target="_blank" href="#"></a></li>
+                                                <li><a class="fa fa-instagram" target="_blank" href="#"></a></li>
+                                             </ul>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-3 col-md-6 col-sm-6">
+                  <div class="price-widget short-widget">
+                     <h2> Price: <strong>R28/square metter</strong></h2>
+                  </div>
+                  <div class="widget user-widget">
+                     <div class="widget-body text-center">
+                        <img class="user-dp" alt="User Image" src="images/user.jpg">
+                        <h2 class="seller-name">John Doe</h2>
+                        <p class="seller-detail">Location: <strong>Orlando</strong><br>
+                           Joined : <strong>21 June 2016</strong>
+                        </p>
+                     </div>
+                     <div class="widget-footer">
+                        <div class="row">
+                           <div class="col-sm-12">    
+                              <button class="btn btn-info btn-block"><i class="fa fa-whatsapp"></i> 011 456 9876</button>
+                              <button class="btn btn-warning btn-block"><i class="fa fa-envelope"></i> Send Message</button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="widget listing-filter-block filter-categories">
+                     <div class="widget-header">
+                        <h1>Safety Tips</h1>
+                     </div>
+                     <div class="widget-body">
+                        <ul class="trends">
+                           <li><i class="fa fa-fw fa-key"></i> Morbi ut tellus ac leo</li>
+                           <li><i class="fa fa-fw fa-key"></i> Luctus nec seded justo</li>
+                           <li><i class="fa fa-fw fa-key"></i> Varius onec rhons</li>
+                           <li><i class="fa fa-fw fa-key"></i> Polutpat ras lorem</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Category List -->
+      <!-- Footer -->
+      <footer>
+         <section class="footer-Content">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-6 col-sm-6 col-xs-12">
+                     <div class="footer-widget">
+                        <h3 class="block-title">About</h3>
+                        <div class="textwidget">
+                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis tincidunt est, et euismod purus suscipit quis. Etiam euismod ornare elementum. Sed ex est,  Sed ex est, consectetur eget consectetur eget facilisis sed, auctor ut purus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lobortis tincidunt est, et euismod purus suscipit quis. Etiam euismod ornare elementum. Sed ex est, consectetur eget facilisis sed, auctor ut purus.</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6 col-xs-12">
+                     <div class="footer-widget">
+                        <h3 class="block-title">Quick Links</h3>
+                        <ul class="menu">
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="#">FAQ</a></li>
+                           <li><a href="#">Pricing Plans</a></li>
+                           <li><a href="categories.html">Categories</a></li>
+                           <li><a href="services.html">Services</a></li>
+                           <li><a href="about.html">Contact</a></li>
+                           <li><a href="blog.html">Blog</a></li>
+                           <li><span><a href="create_post.html">Post your ads with us</a></span></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <div class="copyright">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-12">
+                     <div class="site-info pull-left">
+                        <p>All Copyrights Reserved @ 2017 - Made with <i class="fa fa-heart"></i> by <a target="_blank" href="https://www.facebook.com/samukelo_jiyane">IngweSpot Worx</a></p>
+                     </div>
+                     <div class="bottom-social-icons social-icon pull-right">  
+                        <a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a> 
+                        <a href="#" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="#" target="_blank" class="dribble"><i class="fa fa-dribbble"></i></a>
+                        <a href="#" target="_blank" class="youtube"><i class="fa fa-youtube"></i></a>
+                        <a href="#" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a>
+                        <a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- End Footer -->
+      <!-- Post Ad -->	
+      <a href="create_post.html" data-toggle="tooltip" data-placement="left" title="Post Your Ad" class="btn btn-primary btn-lg post-free-add-btn"><i class="fa fa-pencil"></i></a>
+      <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+      <!-- Custom js -->
+      <script src="js/custom.js"></script>
+      <!-- Bootstrap JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+      <!-- Owl Carousel -->
+      <script src="plugins/owl-carousel/owl.carousel.js"></script>
+   </body>
+</html>
+
